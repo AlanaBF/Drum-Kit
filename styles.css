@@ -1,19 +1,15 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #00b4d8;
+  font-family: "Bubblegum Sans", cursive;
+  margin:0;
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
-}
-
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  font-size: 10rem;
+  color: #03045e;
+  font-family: "Bubblegum Sans", cursive;
+  text-shadow: 10px 0 #caf0f8;
 }
 
 .w {
@@ -51,6 +47,7 @@ background-image: url("./images/crash.png");
 .game-over {
   background-color: red;
   opacity: 0.8;
+  font-family: "Bubblegum Sans", cursive;
 }
 
 .pressed {
@@ -58,18 +55,13 @@ background-image: url("./images/crash.png");
   opacity: 0.5;
 }
 
-.red {
-  color: red;
-}
-
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #0077b6;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Bubblegum Sans", cursive;
   line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
+  color: #03045e;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
@@ -78,4 +70,22 @@ background-image: url("./images/crash.png");
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  width: 100%;
+  color: #DBEDF3 !important;
+  background-color: #0077b6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 1rem !important;
+  padding: 10px;
+  position: fixed;
+   bottom: 0;
+ width: 100%;
+
 }
